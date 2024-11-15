@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    cursor: default;
+    flex-wrap: wrap;
+}
+.body{
+    background-color:#252839; 
+    color: white;
+}
+.section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 8.5%;
+    background: #252839;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 3rem;
+    color: #fff;
+    font-family: Oswald;
+    font-weight: 400;
+    cursor: default;
+}
+.logo span{
+    color: orangered;
+}
+.logo span:hover{
+    background: transparent;
+    text-shadow: 0 0 15px #ff3434;
+    transition: .3s;
+}
+.navbar a{
+    font-size: 1rem;
+    color: white;
+    margin-left: 4rem;
+    font-family: Poppins;
+    font-weight: 500;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: orangered;
+    border: #1f2440;
+    border-radius: 40px;
+    box-shadow: white;
+}
+.navbar i{
+    font-size: 1.5rem;
+    color: #fff;
+    transition: .3s;
+}
+.navbar i:hover{
+    color: orangered;
+}
+.home{
+    font-family: Poppins;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-info{
+    margin-left: 10px;
+    padding: 10rem 1rem;
+    line-height: 1.3;
+}
+.home-info h3{
+    font-weight: 500; 
+}
+.home-info h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.home-info h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.home-info span{
+    color: orangered;
+    font-size: 2rem;
+}
+.myimg img{
+    width: 100%;
+    height: 70vh;
+    padding: 5rem;
+    border-radius: 50%;
+}
+.social-contact a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #2b72ff;
+    background: transparent;
+    border: 3px solid #2b72ff;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: .3s;
+}
+.about{
+    font-family: Poppins;
+}
+.title-about{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.about-container{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.about-box{
+    margin-bottom: 2rem;
+    border: 3px solid #2b72ff;
+    border-radius: 2rem;
+}
+.about-container .about-box{
+    flex: 1 1 20rem;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: .3s;
+}
+.about-container .about-box:hover{
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1.03);
+}
+.skills-section{
+    padding-top: 5rem;
+    font-family: poppins;
+    text-align: center;
+}
+.skill-title{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.skill-container{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.skill-box{
+    margin-bottom: 2rem;
+    border: 3px solid #2b72ff;
+    border-radius: 2rem;
+    
+}
+.skill-container .skill-box{
+    flex: 1 1 20rem;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    transition: .3s;
+
+}
+.skill-container .skill-box:hover{
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1.03);
+}
+.skill-box i{
+    color: rgb(0, 255, 153);
+    font-size: 2rem;
+    
+}
+.skill-box p{
+    padding: 2rem;
+}
+.project-section{
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    text-align: center;
+}
+.project-title{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+.project-container{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+}
+.project-box{
+    margin-bottom: 2rem;
+    border: 3px solid #2b72ff;
+    border-radius: 2rem;
+
+}
+.project-container .project-box{
+    flex: 1 1 20rem;
+    color: #fff;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: .3s;
+
+}
+.project-container .project-box:hover{
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1.03);
+}
+.project-box h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.project-box h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contacts{
+    font-family: Poppins;
+}
+.contacts h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.contact-box{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.content{
+    margin-bottom: 2rem;
+    border: 3px solid #2b72ff;
+    border-radius: 2rem;
+}
+.contact-box .content{
+    flex: 1 1 10rem;
+    color: #fff;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: .3s;
+}
+.contact-box .content:hover{
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1.03);
+}
+.contact-box h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.footer{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+@media(max-width: 680px){
+    .home-info h1{
+        font-size: 4rem;
+    }
+    .home-info h2{
+        font-size: 2rem;
+    }
+    .home-info span{
+        font-size: 3rem;
+    }
+    .home-info h3{
+        font-size: 2rem;
+    }
+    .social-contact{
+        padding-top: .7rem;
+    }
+    .myimg img{
+        text-align: center;
+        width: auto;
+        height: 50vh;
+    
+    }
+    .title-about{       
+        font-size: 4rem;
+    }
+    .skill-title{
+        font-size: 4rem;
+    }
+    .skill-container .skill-box{
+        text-align: center;
+    }
+    .project-title{
+        font-size: 4rem;
+    }
+    .contacts h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .about-container{
+        
+    }
+    
+    
+
+}
+
+
+      
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+ 
+
