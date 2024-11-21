@@ -51,8 +51,7 @@
 }
 .navbar a:hover{
     color: orangered;
-    border: #1f2440;
-    border-radius: 40px;
+    border-bottom: 3px solid orangered;
     box-shadow: white;
 }
 .navbar i{
@@ -331,12 +330,84 @@
         font-size: 4rem;
         text-align: center;
     }
-    .about-container{
-        
+}
+@media(max-width: 620px){
+    .home-info h1{
+        font-size: 4rem;
     }
+    .home-info h2{
+        font-size: 2rem;
+    }
+    .home-info span{
+        font-size: 3rem;
+    }
+    .home-info h3{
+        font-size: 2rem;
+    }
+    .social-contact{
+        padding-top: .7rem;
+    }
+    .myimg img{
+        text-align: center;
+        width: auto;
+        height: 50vh;
     
+    }
+    .title-about{       
+        font-size: 4rem;
+    }
+    .skill-title{
+        font-size: 4rem;
+    }
+    .skill-container .skill-box{
+        text-align: center;
+    }
+    .project-title{
+        font-size: 4rem;
+    }
+    .contacts h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+@media(max-width: 570px){
+    .home-info h1{
+        font-size: 4rem;
+    }
+    .home-info h2{
+        font-size: 2rem;
+    }
+    .home-info span{
+        font-size: 3rem;
+    }
+    .home-info h3{
+        font-size: 2rem;
+    }
+    .social-contact{
+        padding-top: .7rem;
+    }
+    .myimg img{
+        text-align: center;
+        width: auto;
+        height: 50vh;
     
-
+    }
+    .title-about{       
+        font-size: 4rem;
+    }
+    .skill-title{
+        font-size: 4rem;
+    }
+    .skill-container .skill-box{
+        text-align: center;
+    }
+    .project-title{
+        font-size: 4rem;
+    }
+    .contacts h2{
+        font-size: 4rem;
+        text-align: center;
+    }
 }
 
 
