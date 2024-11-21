@@ -311,8 +311,7 @@
     .myimg img{
         text-align: center;
         width: auto;
-        height: 50vh;
-    
+        height: 50vh;  
     }
     .title-about{       
         font-size: 4rem;
@@ -350,8 +349,7 @@
     .myimg img{
         text-align: center;
         width: auto;
-        height: 50vh;
-    
+        height: 50vh; 
     }
     .title-about{       
         font-size: 4rem;
